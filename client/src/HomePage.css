@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav--container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(255, 217, 0, 0.79);
+  background-color: black;
+}
+
+.nav--logo{
+  height: 100px;
+}
+
+.nav--text{
+  color: rgba(250, 232, 130, 0.795);
+  font-size: 24px;
+}
+
+.navbar--text1{
+  color: rgba(250, 232, 130, 0.795);
+  margin-right: 15px;
+  font-size: 20px;
+  transition: 0.2s ease-in;
+}
+ .navbar--text1:hover{
+  border-bottom: 2px solid rgba(250, 232, 130, 0.795);
+  transition: 0.2s ease-in;
+ }
+
+.navbar--text2{
+  color: rgba(250, 232, 130, 0.795);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.navbar--text2:hover{
+  border-bottom: 2px solid rgba(250, 232, 130, 0.795);
+  transition: 0.2s ease-in;
+ }
+
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: #918e9b;
+}
+
+/* .nav--logo{
+    max-width: 100px;
+} */
+
+section {
+  padding: 20px;
+}
+
+.hero {
+  margin-top: 5px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  background-image: url("https://c8.alamy.com/zooms/9/49106a6b8495433dbea64804d9d3c637/2f2k8t5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 2.98256px 7.4564px rgba(255, 217, 0, 0.79);
+}
+
+.hero--image {
+  height: 300px;
+  width: 50px;
+}
+
+.hero--text {
+  margin-top: 0;
+  color: rgba(250, 232, 130, 0.795);
+  font-size: 20px;
+  text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+    margin: 0 30px;
+  line-height: 1.5;
+}
+
+.cards-list {
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  background-color: black;
+  box-shadow: 0px 2.98256px 7.4564px rgba(255, 217, 0, 0.79);
+}
+
+.card {
+  width: 175px;
+  font-size: 12px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: rgba(250, 232, 130, 0.795);
+  border-radius: 9px;
+  transition: 0.2s ease-in-out;
+}
+
+.card:hover{
+  cursor: pointer;
+  transform: scale(1.04);
+  box-shadow: 3px 5px 5px rgba(255, 217, 0, 0.79);
+  transition: 0.2s ease-in-out;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card--title {
+  margin: 10px 10px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.card--position{
+  margin: 0 10px;
+  margin-bottom: 5px;
+}

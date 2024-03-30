@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  /* background-image: url("https://i.pinimg.com/736x/ba/e2/61/bae261c4b7c5e4601d84b44d321977f4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: black;
+}
+
+main{
+    margin: auto;
+    margin-top: 60px;
+    background: radial-gradient(ellipse farthest-corner at right bottom, #fedb37 0%, #fdb931 8%, #9f7928 30%, #8a6e2f 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #fedb37 0%, #fdb931 8%, #9f7928 30%, #8a6e2f 40%, transparent 80%);
+    height: 400px;
+    max-width: 800px;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.title{
+    font-size: 40px;
+    margin: 0;
+}
+
+.instruction{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0 30px;
+    text-align: center;
+}
+
+.btn{
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    cursor: pointer;
+    align-self: center;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.btn:active{
+    box-shadow: inset 5px 5px 10px -3px rgba(255, 217, 0, 0.79);
+}
+
+.link--text{
+    text-decoration: none;
+    color: white;
+}
+.Buttons{
+    display: flex;
+    
+}
+.Login{
+    margin-right: 10px;
+}
+.Register{
+    margin-left: 10px;
+}
+form.login form.register{
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+input{
+  display: block;
+  margin-bottom: 5px;
+  width: 100%;
+  padding: 5px 7px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
